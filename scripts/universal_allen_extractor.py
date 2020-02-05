@@ -26,15 +26,15 @@ if __name__ == "__main__":
     my_parser.add_argument('-m', '--model_path',
                         type=str,
                         default="https://s3-us-west-2.amazonaws.com/allennlp/models/bert-base-srl-2019.06.17.tar.gz",
-                        help='the path to the model/url')
+                        help='the path to the model/URL')
     
     my_parser.add_argument('-html', '--html_path',
                         type=str,
-                        help='the path to html format')
+                        help='path to html parsed PDF')
     my_parser.add_argument('-o', '--outpath',
                     type=str,
                     default='./predictions.json',
-                    help='the outpath')   
+                    help='output path')   
                                         
     # Execute the parse_args() method
     args = my_parser.parse_args()
