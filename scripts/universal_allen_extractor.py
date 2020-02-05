@@ -21,7 +21,7 @@ def capital_words_spaces(str1):
 
 
 if __name__ == "__main__": 
-    my_parser = argparse.ArgumentParser(description='Runs OIE based on AllenNLP Models')
+    my_parser = argparse.ArgumentParser(description='Runs Information extracton from AllenNLP Models')
     # Add the arguments
     my_parser.add_argument('-m', '--model_path',
                         type=str,
@@ -33,6 +33,7 @@ if __name__ == "__main__":
                         help='the path to html format')
     my_parser.add_argument('-o', '--outpath',
                     type=str,
+                    default='./predictions.json',
                     help='the outpath')   
                                         
     # Execute the parse_args() method
