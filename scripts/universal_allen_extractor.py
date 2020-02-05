@@ -102,12 +102,3 @@ if __name__ == "__main__":
     with open(OUTPUT_PATH, 'w') as f:
         json.dump(predictions_info, f)
     print(">> Done. Completed")
-
-
-
-
-
-
-
-
-
