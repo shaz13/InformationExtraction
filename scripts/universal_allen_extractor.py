@@ -21,7 +21,7 @@ def capital_words_spaces(str1):
 
 
 if __name__ == "__main__": 
-    my_parser = argparse.ArgumentParser(description='Runs Information extracton from AllenNLP Models')
+    my_parser = argparse.ArgumentParser(description='Runs information extracton from AllenNLP models')
     # Add the arguments
     my_parser.add_argument('-m', '--model_path',
                         type=str,
