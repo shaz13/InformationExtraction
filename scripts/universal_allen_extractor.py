@@ -98,7 +98,7 @@ if __name__ == "__main__":
                 except:
                     print(f">> Failed for {sent}")
 
-    print(">> Saving SRL Entities to JSON Object")
+    print(">> Saving output as JSON Object")
     with open(OUTPUT_PATH, 'w') as f:
         json.dump(predictions_info, f)
     print(">> Done. Completed")
