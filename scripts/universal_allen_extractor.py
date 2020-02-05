@@ -86,7 +86,7 @@ if __name__ == "__main__":
         json.dump(extracted_info, f)
 
     # Predicting Entites
-    print(">> Predicting SRL Entities and Relations")
+    print(">> Extracting information ...")
     predictions_info = []
     for instance in tqdm(extracted_info):
         sentences = instance['infos']['sentences']
