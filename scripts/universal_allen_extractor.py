@@ -12,8 +12,8 @@ from bs4 import BeautifulSoup
 
 def cleanData(text):
     txt = str(text)
-    txt = re.sub(r'[^A-Za-z0-9\s]',r'',txt)
-    txt = re.sub(r'\n',r' ',txt)
+    txt = re.sub(r'[^A-Za-z0-9\s]',r'', txt)
+    txt = re.sub(r'\n',r' ', txt)
     return txt
 
 def capital_words_spaces(str1):
