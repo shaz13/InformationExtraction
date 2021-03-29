@@ -136,7 +136,7 @@ pycrypto==2.6.1
 pycryptodome==3.9.6
 pycryptodomex==3.9.6
 pycups==1.9.73
-Pygments==2.5.2
+Pygments==2.7.4
 pygobject==3.26.1
 pyhocon==0.3.35
 pylint==2.4.4
