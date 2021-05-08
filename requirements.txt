@@ -36,7 +36,7 @@ docutils==0.16
 editdistance==0.5.3
 en-core-web-sm==2.1.0
 entrypoints==0.3
-eventlet==0.25.1
+eventlet==0.31.0
 flaky==3.6.1
 Flask==1.1.1
 Flask-Cors==3.0.8
