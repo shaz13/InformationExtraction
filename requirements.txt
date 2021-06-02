@@ -217,7 +217,7 @@ ufw==0.36
 ujson==1.35
 unattended-upgrades==0.1
 Unidecode==1.1.1
-urllib3==1.25.8
+urllib3==1.26.5
 usb-creator==0.3.3
 uvloop==0.14.0
 validictory==1.1.2
