@@ -144,7 +144,7 @@ pymacaroons==0.13.0
 PyNaCl==1.1.2
 pyparsing==2.4.6
 pyPdf==1.13
-PyPDF2==1.26.0
+PyPDF2==1.27.5
 pyRFC3339==1.0
 pyrsistent==0.15.7
 pytest==5.3.5
